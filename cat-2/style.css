@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif; /* Simple and clean font */
+    background-color: #fff; /* White background */
+    color: #333; /* Dark grey text for readability */
+    line-height: 1.6; /* Spacing for readability */
+    padding: 20px; /* Padding around the content */
+}
+
+form {
+    background: #f3f4f6; /* Light grey background for the form */
+    max-width: 700px; /* Max width for the form */
+    margin: 20px auto; /* Centering the form with margin */
+    padding: 20px; /* Padding inside the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+label {
+    display: block; /* Each label on its own line */
+    margin-bottom: 5px; /* Space below each label */
+    font-weight: bold; /* Bold font for labels */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea {
+    width: 100%; /* Full width for input fields */
+    padding: 10px; /* Padding inside fields */
+    margin-bottom: 20px; /* Space below each field */
+    border: 1px solid #ddd; /* Light grey border */
+    border-radius: 4px; /* Slightly rounded corners */
+    box-sizing: border-box; /* Ensures padding doesn't add to the width */
+}
+
+input[type="submit"] {
+    background-color: #333; /* Dark background for submit button */
+    color: white; /* White text for the button */
+    padding: 10px 20px; /* Padding inside the button */
+    border: none; /* No border for the button */
+    border-radius: 4px; /* Rounded corners for the button */
+    cursor: pointer; /* Cursor change to indicate clickability */
+}
+
+input[type="submit"]:hover {
+    background-color: #555; /* Slightly darker on hover for feedback */
+}
